@@ -1,0 +1,5 @@
+
+# Added by install_backend.js — the deploy writes real secrets into .env
+.env
+.env.local
+node_modules
