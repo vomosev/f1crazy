@@ -1,0 +1,27 @@
+{
+  "name": "f1crazy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F1 Crazy — a single-player Monaco street circuit arcade racer with zany characters and crazy pickups.",
+  "scripts": {
+    "build": "next build",
+    "start": "node server/index.js",
+    "server": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-mysql-session": "^3.0.3",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.11.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
